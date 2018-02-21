@@ -111,7 +111,7 @@ Saat anda membeli / menyewa hosting, yang anda sewa adalah jasa penyimpanan data
         <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
           <div class="caption">
             <h3>Signory Umbu Bewa Goeti</h3>
-            <p>Founder / CEOr</p>
+            <p>Founder / CEO</p>
             <p>Nomer Induk Mahasiswa 5140411367.</p>
           </div>
         </div>
@@ -142,33 +142,57 @@ Saat anda membeli / menyewa hosting, yang anda sewa adalah jasa penyimpanan data
       <div class="clearfix"></div>
     </div>
     <div class="col-md-8 col-md-offset-2">
-      <h3>Leave us a message</h3>
-      <form name="sentMessage" id="contactForm" novalidate>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-        </div>
-        <div class="form-group">
-          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-          <p class="help-block text-danger"></p>
-        </div>
-        <div id="success"></div>
-        <button type="submit" class="btn btn-default">Send Message</button>
-      </form>
-    </div>
-  </div>
-</div>
-</div>
+      <<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+
+<style type="text/css">
+<!--
+.style1 {
+ font-family: Geneva, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<form action="kirim_buku-tamu.php" method="post" name="buku-tamu" class="style1" id="buku-tamu">
+  <table width="433" border="0" align="center" cellpadding="4" cellspacing="2">
+    <tr>
+      <td width="118"><div align="right">Nama</div></td>
+      <td width="293"><input name="nama" type="text" id="nama" size="40" /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Email</div></td>
+      <td><input name="email" type="text" id="email" size="40" /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Jenis Kelamin</div></td>
+      <td><select name="select">
+        <option value="1" selected="selected">Laki-laki</option>
+        <option value="2">Perempuan</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td><div align="right">Komentar</div></td>
+      <td><textarea name="komentar" cols="30" rows="5" id="komentar"></textarea></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input name="kirim" type="submit" id="kirim" value="Kirim" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+  <br />
+</form>
+</body>
+</html>
 <div id="social-section">
   <div class="container">
     <div class="social">
